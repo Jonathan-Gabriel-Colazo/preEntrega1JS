@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:brown;
+
+}
+
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+.actividad{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h2{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+input{
+    width: auto;
+    height: 25px;
+    font-size: 18px;
+    color: blue;
+    background-color: gray;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+input::placeholder{
+    color: aquamarine;
+}
+
+button{
+    width: 35%;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+
+select{
+    width: auto;
+    height: 35px;
+    font-size: 20px;
+    color: blue;
+    background-color: gray;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+option{
+    width: auto;
+    height: 35px;
+    font-size: 20px;
+}
